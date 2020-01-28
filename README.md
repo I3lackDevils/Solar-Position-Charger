@@ -18,13 +18,9 @@ I ended up with inventing a system that would make solar charging more efficiën
 So with my idea in mind I started thinking about wich components I needed and ordered those. 
 
 - 2 INA219s power measurement IC's.
-
 - 1 MCP73831 charging IC.
-
 - Atmega 328P
-
 - 16 MHz clock crystal
-
 - FT232RL USB
 
 - Esp8266 WiFi module
