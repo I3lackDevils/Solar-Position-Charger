@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<style>
+@font-face {
+			    font-family: 'dos';
+			     format('woff'),
+			         url('perfect_dos_vga_437_win-webfont.ttf') format('truetype');
+			    font-weight: normal;
+			    font-style: normal;
+			}
+			body {
+				margin: 100px auto;
+				width: 320px;
+				font-family: 'dos',monospace;
+				background: rgb(0,10,0);
+				color: rgb(50,255,50);
+				}
+         h1 {font-weight: normal;}
+			fieldset {
+				margin: 15px 0;
+				opacity: 0.75;
+				border: 3px double rgb(50,255,50);
+				padding: 2px;
+			}
+			legend {
+				background: rgb(50,255,50);
+				text-align: center;
+				text-transform: uppercase;
+				color: rgb(0,10,0);
+			}
+			.warn {
+				color: rgb(255,255,50);
+            background: rgb(0,10,0);
+			}
+			.danger {
+				color: rgb(255,50,50);
+            background: rgb(0,10,0);
+			}
+			table {width: 100%;}
+			table, tr, td {
+				padding: 0;
+				margin: 0;
+				border: none;
+			}
+			.value {text-align: right;}
+</style>
+<body>
+<h1>STATUS MONITOR</h1>
+		<fieldset>
+			<legend>Arduino</legend>
+			<table>
+				<tr>
+					<td>Voltage</td>
+					<td class='value'><span>4.756V</span></td>
+				</tr>
+				<tr>
+					<td>Current</td>
+					<td class='value'><span>80mA</span></td>
+				</tr>
+
+			</table>
+		</fieldset>
+		<fieldset>
+			<legend>Solar Power</legend>
+			<table>
+				<tr>
+					<td>Voltage</td>
+					<td class='value'><span>4.756V</span></td>
+				</tr>
+				<tr>
+					<td>Current</td>
+					<td class='value'><span>80mA</span></td>
+				</tr>
+			</table>
+		</fieldset>
+</body>
+</html>
