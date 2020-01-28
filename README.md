@@ -25,4 +25,5 @@ So with my idea in mind I started thinking about wich components I needed and or
 - I²C LCD
 - Bunch of capacitors/recisotrs/leds
 - RaspberryPi 
+
 So after I got my components I started designing a PCB in Eagle. After triple checking my PCB I printed it and soldered my SMD components with a pick & place and a soldering oven. After my PCB was finished I started programming some test programs with succes. I tested my LCD and tried to read values from my INA sensors. Unfortunately both of the sensor's didn't work. One was reading false values due to wrong connection I made. You need to connect them in series to the whole load to measure there current but I accidently messed up and connected them in parallel. The other sensor died during the soldering process I gues because I coudn't even read it's I²C adress. So I decided to order some INA breakout boards. They worked absolutly fine. After that I started to program the whole project and also made a serial connection between the ESP8266 and the atmega so I could post data to a local RaspberryPi server. I connected all the cables and was very happy with my result.
