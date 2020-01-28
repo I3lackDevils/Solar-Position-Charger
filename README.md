@@ -1,6 +1,6 @@
 # Solar-Position-Charger
 ## The target
-For my class Embededd Interfacing i had to make a rather large project with some requirements.
+For my class Embededd Interfacing I had to make a rather large project with some requirements.
 - μprocessor :  Atmega 328P.
 - Display (LCD ,Touchscreen), control leds.
 - Interface: SPI, I2C, Digital I/O, Analog I/O.
