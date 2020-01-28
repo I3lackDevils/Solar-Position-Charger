@@ -1,5 +1,5 @@
 # Solar-Position-Charger
-![Picture of my solar project](Pictures/readme.jpg)
+![Picture of my solar project](Pictures/readme.jpg)![Picture of my solar project](Pictures/readme2.jpg)
 ## The target
 For my class Embededd Interfacing I had to make a rather large project with some requirements.
 - μprocessor :  Atmega 328P
